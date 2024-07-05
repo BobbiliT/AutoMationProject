@@ -2,7 +2,7 @@ package scripts;
 
 public class StepByStepFramework {
 // first we want to create one browerinterface we have to write all system properties into interface 
-// then after we have to creat one class implements with browserinterface to creat all project related generic function
+// then after we have to creat one lib class implements with browserinterface to creat all project related generic function
 //then after we have to creat on pom class to decleration the webelements after instilization with webdriver after utlization the webelements
 //then after we have to creat on base class for lunch the browser
 // then after we will creat on testng class to extends the base class then after we have to creat one object of the pom file class 

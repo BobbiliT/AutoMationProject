@@ -40,7 +40,7 @@ public class BaseTest implements IAutoConstant {
 	}
 	public void takescreenshot(String testmethod) {
 		Date d = new Date();
-		String date=d.toString().replace(":", " ");
+		String date=d.toString().replace(":", "");
 		TakesScreenshot ts= (TakesScreenshot)driver;
 		File src = ts.getScreenshotAs(OutputType.FILE);
 		File trg = new File(".//screenshots//"+date+"//"+testmethod+"screen_shot.png");

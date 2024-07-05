@@ -51,7 +51,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
-                    <span>C:\Users\HP\git\AutoMationProject\AutoMationProject\testng1.xml</span>
+                    <span>C:\Users\HP\git\AutoMationProject\AutoMationProject\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -104,7 +104,7 @@
                     <div class="method-list-content failed suite-Suite">
                       <span>
                         <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="scripts.testlogin1" class="method navigator-link" hash-for-method="loginfacebook">loginfacebook</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="scripts.TestLogin" class="method navigator-link" hash-for-method="testFacebookLogin">testFacebookLogin</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content failed suite-Suite -->
@@ -122,20 +122,20 @@
           <div class="suite-Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
               <img src="failed.png"/>
-              <span class="class-name">scripts.testlogin1</span>
+              <span class="class-name">scripts.TestLogin</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginfacebook">
-                  </a> <!-- loginfacebook -->
-                  <span class="method-name">loginfacebook</span>
+                  <a name="testFacebookLogin">
+                  </a> <!-- testFacebookLogin -->
+                  <span class="method-name">testFacebookLogin</span>
                   <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
 	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
 	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
 	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
-	at pompages.Loginpage1.setusername(Loginpage1.java:23)
-	at scripts.testlogin1.loginfacebook(testlogin1.java:18)
+	at pompages.LoginPage.Setusername(LoginPage.java:24)
+	at scripts.TestLogin.testFacebookLogin(TestLogin.java:17)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
 ... Removed 25 stack frames
 </div> <!-- stack-trace -->
@@ -146,7 +146,7 @@
         </div> <!-- panel Suite -->
         <div panel-name="test-xml-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\HP\git\AutoMationProject\AutoMationProject\testng1.xml</span>
+            <span class="header-content">C:\Users\HP\git\AutoMationProject\AutoMationProject\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -154,11 +154,11 @@
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
   &lt;listeners&gt;
-    &lt;listener class-name=&quot;generic.testnglistners1&quot;/&gt;
+    &lt;listener class-name=&quot;generic.TestngListeners&quot;/&gt;
   &lt;/listeners&gt;
   &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
-      &lt;class name=&quot;scripts.testlogin1&quot;/&gt;
+      &lt;class name=&quot;scripts.TestLogin&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -200,14 +200,14 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginfacebook')
-data.setCell(0, 2, 'scripts.testlogin1')
-data.setCell(0, 3, 23);
+data.setCell(0, 1, 'testFacebookLogin')
+data.setCell(0, 2, 'scripts.TestLogin')
+data.setCell(0, 3, 8);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 23 ms</span>
+              <span class="suite-total-time">Total running time: 8 ms</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -233,20 +233,20 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">scripts.testlogin1</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">scripts.TestLogin</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
-                <span class="method-name">openapplication</span>
+                <span class="method-name">openappliction</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <img src="failed.png">
                 </img>
-                <span class="method-name">loginfacebook</span>
-                <span class="method-start">5729 ms</span>
+                <span class="method-name">testFacebookLogin</span>
+                <span class="method-start">3896 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeapplication</span>
-                <span class="method-start">6095 ms</span>
+                <span class="method-name">closeappliction</span>
+                <span class="method-start">4035 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
