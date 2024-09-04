@@ -130,14 +130,10 @@
                   <a name="testFacebookLogin">
                   </a> <!-- testFacebookLogin -->
                   <span class="method-name">testFacebookLogin</span>
-                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.SearchContext.findElement(org.openqa.selenium.By)&quot; because &quot;this.searchContext&quot; is null
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:68)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
-	at jdk.proxy2/jdk.proxy2.$Proxy11.sendKeys(Unknown Source)
-	at pompages.LoginPage.Setusername(LoginPage.java:24)
-	at scripts.TestLogin.testFacebookLogin(TestLogin.java:17)
+                  <div class="stack-trace">java.lang.AssertionError: null
+	at scripts.TestLogin.testFacebookLogin(TestLogin.java:23)
 	at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-... Removed 25 stack frames
+... Removed 27 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -202,12 +198,12 @@ data.addRows(1);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'testFacebookLogin')
 data.setCell(0, 2, 'scripts.TestLogin')
-data.setCell(0, 3, 8);
+data.setCell(0, 3, 5528);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 8 ms</span>
+              <span class="suite-total-time">Total running time: 5 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -242,11 +238,11 @@ return data;
                 <img src="failed.png">
                 </img>
                 <span class="method-name">testFacebookLogin</span>
-                <span class="method-start">3896 ms</span>
+                <span class="method-start">3959 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeappliction</span>
-                <span class="method-start">4035 ms</span>
+                <span class="method-start">9608 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
